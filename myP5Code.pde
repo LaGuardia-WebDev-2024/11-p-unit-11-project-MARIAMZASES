@@ -21,26 +21,27 @@ var animals = 0;
    };
   
   
-var flowers = ["🌷", "🌻", "🪻"];
+
+
+   var drawSquirell = function(squirellX, squirellY, squirellColor){
+    textSize(30);
+    fill(squirellColor);
+    text("🐿", squirellX, squirellY, squirellColor);
+     
+  var flowers = ["🌷", "🌻", "🪻"];
    
    textSize(80);
    text(flowers[0], 90, 200);
 
     textSize(80);
    text(flowers[1], 300, 270);
+   
    textSize(30);
    text(flowers[1], 400, 220);
   
    textSize(80);
    text(flowers[2], 470, 320);
    
-  
-   var drawSquirell = function(squirellX, squirellY, squirellColor){
-    textSize(30);
-    fill(squirellColor);
-    text("🐿", squirellX, squirellY, squirellColor);
-     
-  
 };
 draw = function(){
 drawSquirell(180,220);
